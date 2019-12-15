@@ -6,84 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Donate</title>
-    <link rel="stylesheet" href="/donate/donate.css">
+    <link rel="stylesheet" href="/donate/desktop.css">
+    <link rel="stylesheet" href="/donate/tablet.css">
+    <link rel="stylesheet" href="/donate/mobile.css">
 </head>
 
 <body>
     <header>
         <h1 class="title">The Green <br> Trees Initiative</h1>
     </header>
-    <div class="parent-form">
-        <div class="text">
-            <h1>GIVE HOPE TO THOSE WHO NEED IT MOST</h1>
-        </div>
+
+    <div class="first">
         <div class="form">
-            <table class="table">
-                <tr>
-                    <td colspan="3" class="title1"><strong>Your infromation</strong></td>
-                </tr>
-                <tr>
-                    <td>FIRST NAME</td>
-                    <td colspan="2">LAST NAME</td>
-                </tr>
-                <tr>
-                    <td><input type="text" class="content first" placeholder="First name"></td>
-                    <td colspan="2"><input type="text" class="content last" placeholder="Last name"></td>
-                </tr>
-                <tr>
-                    <td colspan="3">STREET ADDRESS</td>
-                </tr>
-                <tr>
-                    <td colspan="3"><input type="text" class="content address" placeholder="Street address"></td>
-                </tr>
-                <tr>
-                    <td>CITY</td>
-                    <td>STATE</td>
-                    <td>ZIP CODE</td>
-                </tr>
-                <tr>
-                    <td><input type="text" class="content city" placeholder="City name"></td>
-                    <td><select class="content state">
-                            <option value="0">AL</option>
-                        </select></td>
-                    <td><input type="text" class="content zip" placeholder="Zip code"></td>
-                </tr>
-                <tr>
-                    <td colspan="3">EMAIL ADDRESS</td>
-                </tr>
-                <tr>
-                    <td colspan="3"><input type="email" class="content email" placeholder="Email address"></td>
-                </tr>
-                <tr></tr>
-                <tr>
-                    <td colspan="3"><strong>Payment infromation</strong></td>
-                </tr>
-                <tr>
-                    <td colspan="3">CREDIT CARD NUMBER</td>
-                </tr>
-                <tr>
-                    <td colspan="3"><input type="tex" class="content card" placeholder="Credit card number"></td>
-                </tr>
-                <tr>
-                    <td colspan="2">EXPIRATION</td>
-                    <td>SECURITY CODE</td>
-                </tr>
-                <tr>
-                    <td><input type="tex" class="content month" placeholder="MM"></td>
-                    <td><input type="tex" class="content year" placeholder="YY"></td>
-                    <td><input type="tex" name="cvv" class="content cvv"></td>
-                </tr>
-                <tr></tr>
-                <tr>
-                    <td colspan="3"><strong>Click the button to confirm your <br> donation of $10, recurring
-                            monthly.</strong></td>
-                </tr>
-                <tr>
-                    <td><a href="#">Go back</a></td>
-                    <td colspan="2"><button type="submit" class="process">PROCESS PAYMENT</button></td>
-                </tr>
-            </table>
+            <div class="form-one">
+                <div class="form-title"><b>Your information</b></div>
+                <div class="form-name">
+                    <div class="name-first">
+                        <div class="label">FIRST NAME</div>
+                        <input type="text" class="input name" placeholder="First name">
+                    </div>
+                    <div class="name-last">
+                        <div class="label">LAST NAME</div>
+                        <input type="text" class="input name" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="form-address">
+                    <div class="label">STREET ADDRESS</div>
+                    <input type="text" class="input length" placeholder="Street address">
+                </div>
+                <div class="form-loc">
+                    <div class="form-city">
+                        <div class="label">CITY</div>
+                        <input type="text" class="input name" placeholder="City name">
+                    </div>
+                    <div class="form-state">
+                        <div class="state">
+                            <div class="label">STATE</div>
+                            <select class="input min select">
+                                <option value="al">AL</option>
+                            </select>
+                        </div>
+                        <div class="zip">
+                            <div class="label">ZIP CODE</div>
+                            <input type="text" class="input min" placeholder="Zip code">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-email">
+                    <div class="label">EMAIL ADDRESS</div>
+                    <input type="text" class="input length" placeholder="Email address">
+                </div>
+            </div>
+            <div class="form-two">
+                <div class="form-title"><b>Payment information</b></div>
+                <div class="form-number">
+                    <div class="label">CREDIT CARD NUMBER</div>
+                    <input type="text" class="input length" placeholder="Credit card number">
+                </div>
+                <div class="form-safe">
+                    <div class="expiry">
+                        <div class="label">EXPIRATION</div>
+                        <div class="month-year">
+                            <input type="text" class="input min" placeholder="MM">
+                            <input type="text" class="input min" placeholder="YY">
+                        </div>
+                    </div>
+                    <div class="code">
+                        <div class="label">SECURITY CODE</div>
+                        <input type="text" class="input min" placeholder="CVC">
+                    </div>
+                </div>
+            </div>
+            <div class="form-three">
+                <div class="form-title"><b>Click the button to confirm your donation of $10, recurring monthly.</b>
+                </div>
+            </div>
+            <div class="end">
+                <div class="back">Go back</div>
+                <div class="form-btn"><b>Process Payment</b></div>
+            </div>
         </div>
+        <div class="first-text"><b>Give HOPE to those Who need It most</b></div>
+    </div>
+
+    <div class="footer">
+        <div class="title fr-title"><b>The Green <br>Trees Initiative</b></div>
+        <div class="fr-container">
+            <div class="fr-details fr-one">
+                <p class="fr-h">CONTACT US</p>
+                <p>123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org</p>
+            </div>
+            <div class="fr-details fr-two">
+                <p class="fr-h">LINKS</p>
+                <p>The issue How we help Get involved Latest news</p>
+            </div>
+            <div class="fr-details fr-three">
+                <p class="fr-h">FOLLOW US</p>
+                <p>Facebook Twitter Instagram Medium</p>
+            </div>
+        </div>
+        <div class="fr-text">#stop climate change</div>
     </div>
 </body>
 

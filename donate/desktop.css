@@ -1,0 +1,174 @@
+body {
+    font-family: Helvetica;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+}
+
+/* -----------------------------------------first----------------------------- */
+
+.first {
+    background-image: url(/images/assets/assets/donation/annie-spratt-427340-unsplash.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    color: white;
+    display: flex;
+    padding: 150px 0 150px 150px;
+    width: 1091px;
+}
+
+.first-text {
+    font-family: flood;
+    font-size: 50px;
+    width: 250px;
+    padding: 0 0 0 50px;
+}
+
+.form {
+    background: #354463;
+    padding: 50px;
+    width: 460px;
+}
+
+.form-one {
+    padding: 0 0 50px 0;
+}
+
+.form-name {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 0 15px 0;
+}
+
+.form-address {
+    padding: 0 0 15px 0;
+}
+
+.form-loc {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form-state {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 0 15px 0;
+}
+
+.form-two {
+    padding: 0 0 50px 0;
+}
+
+.form-number {
+    padding: 0 0 15px 0;
+}
+
+.form-safe {
+    padding: 0 0 15px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.month-year {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form-three {
+    padding: 0 0 50px 0;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    font-size: 10px;
+    color: #C1F7D5;
+    text-decoration: underline;
+}
+
+.form-btn {
+    padding: 10px 15px 10px 15px;
+    background: #C1F7D5;
+    color: #354463;
+    border-radius: 25px;
+}
+
+.form-title {
+    font-size: x-large;
+    padding: 0 0 25px 0;
+}
+
+.label {
+    font-size: 15px;
+    padding: 0 0 5px 0;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #C1F7D5;
+    background: #354463;
+    padding: 0 0 5px 0;
+    font-size: 18px;
+}
+
+.name {
+    width: 200px;
+}
+
+.length {
+    width: 430px;
+}
+
+.min {
+    width: 75px;
+}
+
+.select {
+    color: #C1F7D5;
+}
+
+/* -----------------------------------------footer------------------------------------ */
+
+.footer {
+    padding: 40px 0 0 125px;
+    display: flex;
+    position: absolute;
+    top: 1240px;
+    left: 0;
+}
+
+.fr-title {
+    color: #354463;
+    font-size: 21px;
+    text-align: left;
+}
+
+.fr-text {
+    width: 200px;
+    font-family: flood;
+    color: #354463;
+    font-size: 35px;
+    text-align: right;
+}
+
+.fr-container {
+    display: flex;
+    color: #354463;
+    padding: 0px 50px 0px 50px;
+}
+
+.fr-details {
+    width: 150px;
+    margin-left: 25px;
+}
+
+.fr-h {
+    border-bottom: 1px solid #354463;
+    padding: 0 0 15px 0;
+}
