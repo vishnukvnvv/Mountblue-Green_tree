@@ -1,0 +1,281 @@
+@media (max-width: 360px) {
+    .header {
+        width: 725px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 50px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .card-title {
+        top: 470px;
+    }
+    .options {
+        display: flex;
+        padding-left: 56px;
+        flex-direction: column;
+    }
+    .nav-links {
+        font-size: 29px;
+        padding-bottom: 10px;
+    }
+    .header-btn {
+        left: 70px;
+        top: 210px;
+        width: max-content;
+        padding: 10px 190px 10px 190px;
+        font-size: 50px;
+    }
+    /* -------------------------------------first-------------------------- */
+    .first {
+        width: 532px;
+        height: 300px;
+        top: 300px;
+        padding: 470px 150px 150px 150px;
+        background-size: cover;
+    }
+    .intro-h1 {
+        font-size: 45px;
+        width: 570px;
+        text-align: center;
+    }
+    .intro-card {
+        width: 595px;
+        height: 310px;
+        padding: 25px 13px 72px 0px;
+        text-align: center;
+    }
+    .intro-text {
+        position: absolute;
+        font-size: 75px;
+        top: 25px;
+        left: 75px;
+    }
+    .card-title {
+        left: 350px;
+        height: 40px;
+        width: 160px;
+        font-size: x-large;
+        top: 325px;
+    }
+    /* -------------------------------------second-------------------- */
+    .second {
+        width: 632px;
+        top: 1219px;
+    }
+    .do-title {
+        top: 50px;
+        font-size: xx-large;
+        padding: 10px 16px 10px 10px;
+    }
+    .second-text {
+        text-align: center;
+        font-size: 50px;
+        width: 690px;
+    }
+    .second-content {
+        grid-template-columns: 50% 50%;
+        width: 700px;
+        padding: 0px 0 0px 15px;
+        column-gap: 15px;
+    }
+    .second-img {
+        width: 90px;
+    }
+    .second-h {
+        font-size: 30px;
+    }
+    .second-p {
+        font-size: 27px;
+    }
+    /* ----------------------------------------third--------------------------- */
+    .third {
+        top: 3300px;
+        width: 694px;
+    }
+    .third-title {
+        top: 100px;
+    }
+    .third-h {
+        font-size: 52px;
+        width: 670px;
+    }
+    .third-p {
+        padding: 20px 0 0 20px;
+        font-size: xx-large;
+        width: 620px;
+    }
+    .third-text {
+        text-align: center;
+        grid-template-columns: 100%;
+        width: 620px;
+    }
+    .third-content {
+        width: 620px;
+        gap: 80px 70px;
+    }
+    .third-img {
+        width: 250px;
+    }
+    .third-name {
+        left: 80px;
+        width: 220px;
+        font-size: 21px;
+        padding: 10px 15px 10px 15px;
+        top: 748px;
+    }
+    .two {
+        left: 462px;
+    }
+    .three {
+        top: 1082px;
+    }
+    .four {
+        top: 1081px;
+        left: 461px;
+    }
+    .five {
+        top: 1418px;
+    }
+    .six {
+        top: 1418px;
+        left: 461px;
+    }
+    /* ----------------------------------------------fourth---------------------------- */
+    .fourth {
+        width: 686px;
+        top: 4850px;
+    }
+    .fourth-text {
+        font-size: 46px;
+        width: 700px;
+        padding: 50px 0 25px 20px;
+    }
+    .fourth-content {
+        width: 570px;
+        grid-template-columns: 100%;
+    }
+    .fourth-title {
+        top: 100px;
+    }
+    .fourth-p {
+        width: 380px;
+        font-size: 35px;
+    }
+    .fourth-h {
+        padding: 20px 0 0 100px;
+        font-size: 80px;
+    }
+    /* ------------------------------------------------fifth--------------------------- */
+    .fifth {
+        width: 832px;
+        top: 6118px;
+    }
+    .fifth-head {
+        width: 550px;
+    }
+    .fifth-arrow {
+        left: 710px;
+        top: 820px;
+        z-index: 1;
+    }
+    .fifth-title {
+        font-size: 40px;
+        padding: 10px 20px 10px 20px;
+        left: 240px;
+        top: -30px;
+    }
+    .fifth-container {
+        padding: 400px 0 0 100px;
+        column-gap: 500px;
+        overflow: scroll;
+    }
+    .fifth-items {
+        height: 990px;
+        width: 649px;
+    }
+    .fifth-img {
+        width: 650px;
+    }
+    .fifth-h {
+        font-size: 50px;
+    }
+    .fifth-p {
+        font-size: 40px;
+    }
+    .fifth-btn {
+        padding: 10px 20px 10px 20px;
+        width: 260px;
+        top: 895px;
+    }
+    /* ------------------------------------------------sixth--------------------------------- */
+    .sixth {
+        padding: 45px;
+        width: 743px;
+        top: 7559px;
+        display: block;
+        left: 0;
+        height: 200px;
+    }
+    .sixth-text {
+        padding: 0 0 0 70px;
+        font-size: 40px;
+        width: 600px;
+    }
+    .sixth-input {
+        padding: 10px 20px 10px 20px;
+        font-size: 25px;
+        position: absolute;
+        top: 100px;
+        display: block;
+    }
+    .sixth-btn {
+        font-size: x-large;
+        width: 130px;
+        position: absolute;
+        top: 100px;
+        left: 400px;
+    }
+    /* -----------------------------------------footer------------------------------------ */
+    .footer {
+        display: flex;
+        height: 380px;
+        width: auto;
+        top: 7830px;
+    }
+    .fr-title{
+        position: absolute;
+        width: 550px;
+        padding: 50px 0 0 0;
+        font-size: 40px;
+        left: 90px;
+    }
+    .fr-container {
+        font-size: 12px;
+        position: relative;
+    }
+    .fr-details {
+        width: 250px;
+        font-size: x-large;
+        position: absolute;
+    }
+    .fr-one {
+        left: 300px;
+    }
+    .fr-two {
+        top: 200px;
+        left: 300px;
+    }
+    .fr-three {
+        width: 280px;
+        top: 220px;
+    }
+    .fr-text {
+        font-size: 60px;
+        position: absolute;
+        top: 440px;
+        left: 470px;
+        padding: 0;
+    }
+}

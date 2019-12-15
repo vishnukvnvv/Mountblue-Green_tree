@@ -1,0 +1,179 @@
+@media (max-width: 1024px) {
+    .title {
+        display: block;
+        padding: 10px 0 10px 95px;
+        font-size: 28px;
+    }
+    .nav-link {
+        margin-left: 100px;
+        font-size: x-large;
+    }
+    #donate {
+        padding: 12px 20px 12px 20px;
+        font-size: 20px;
+        width: 150px;
+        display: block;
+        margin: -75px 100px 0 720px;
+    }
+    #first {
+        margin: 36px 0 0 -8px;
+        flex-direction: column-reverse;
+        height: 530px;
+        width: 723px;
+    }
+    .intro-text {
+        font-size: 70px;
+    }
+    #intro-card {
+        margin: 100px 0 50px -20px;
+        width: 580px;
+        height: 309px;
+        padding: 25px 0px 20px 50px;
+    }
+    #intro-h1 {
+        font-size: 41px;
+    }
+    #intro-p {
+        margin-top: -40px;
+    }
+    .second {
+        margin: -157px 0 0 -8px;
+        grid-template-columns: 50% 50%;
+        width: 964px;
+        font-size: xx-large;
+    }
+    .act-title {
+        margin-left: 380px;
+        font-size: large;
+        padding: 5px;
+    }
+    .do-title {
+        padding: 5px;
+        font-size: larger;
+    }
+    .third {
+        margin: 0px 0 0 -8px;
+        width: 823px;
+    }
+    .third-text {
+        font-size: 55px;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .card-on {
+        flex-direction: column;
+        padding: 0px 0px 0 280px;
+        width: 500px;
+        height: 270px;
+        margin-bottom: 90px;
+    }
+    .third-img {
+        position: absolute;
+        left: 170px;
+        width: 350px;
+    }
+    .third-btn {
+        position: absolute;
+        left: 170px;
+        font-size: large;
+        margin: -55px 0 0 180px;
+    }
+    .third-card-title {
+        width: 300px;
+        margin-left: 130px;
+    }
+    .third-card-text {
+        width: 300px;
+        margin-left: 130px;
+    }
+    .fourth {
+        margin: 0 0 0 -8px;
+        width: 864px;
+    }
+    .fourth-text {
+        width: 300px;
+    }
+    .fourth-btn {
+        padding: 15px 25px 15px 25px;
+        font-size: large;
+    }
+    .content {
+        height: 130px;
+        width: 390px;
+    }
+    .content-p {
+        width: 280px;
+    }
+    .fifth {
+        padding: 100px 100px 100px 110px;
+        flex-direction: column-reverse;
+    }
+    .fifth-text {
+        margin: -40px 0 0 50px;
+        width: 625px;
+        height: 200px;
+        height: 10;
+    }
+    .fifth-h {
+        width: auto;
+        font-size: 30px;
+    }
+    .fifth-p {
+        font-size: x-large;
+    }
+    .fifth-btn {
+        padding: 18px 30px 18px 30px;
+        margin: 270px 0 0px 50px;
+        font-size: x-large;
+        border-radius: 35px;
+    }
+    .fifth-title {
+        font-size: x-large;
+    }
+    .fifth-img {
+        width: 720px;
+        height: 680px;
+    }
+    .sixth {
+        width: 823px;
+    }
+    .sixth-img {
+        height: 400px;
+        width: 400px;
+    }
+    .space {
+        padding: 0 100px 0 50px;
+    }
+    .seventh {
+        width: 894px;
+    }
+    .seventh-text {
+        position: absolute;
+        font-size: xx-large;
+        width: 675px;
+    }
+    .seventh-input {
+        margin: 100px 0 0 85px;
+        padding: 12px 70px 12px 25px;
+        font-size: x-large;
+    }
+    .seventh-btn {
+        margin: 100px 0 0 150px;
+        font-size: x-large;
+        padding: 10px 25px 25px 25px;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    .fr-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .fr-text {
+        position: absolute;
+        font-size: 50px;
+        margin: 150px 0 0 650px;
+    }
+}

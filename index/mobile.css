@@ -1,0 +1,307 @@
+@media (max-width: 360px) {
+    .header {
+        width: 725px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 50px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .card-title {
+        top: 470px;
+    }
+    .options {
+        display: flex;
+        padding-left: 56px;
+        flex-direction: column;
+    }
+    .nav-links {
+        font-size: 29px;
+        padding-bottom: 10px;
+    }
+    .header-btn {
+        left: 70px;
+        top: 210px;
+        width: max-content;
+        padding: 10px 190px 10px 190px;
+        font-size: 50px;
+    }
+    /* -----------------------------------------------first--------------------------------------- */
+    .first {
+        top: 315px;
+        background-position: top;
+        width: 633px;
+        height: 750px;
+        background-size: cover;
+    }
+    .intro-card {
+        padding: 63px 30px 30px 70px;
+    }
+    .intro-h {
+        font-size: 40px;
+    }
+    .intro-text {
+        font-size: 80px;
+        padding: 0 0 150px 0;
+    }
+    /* -----------------------------------------------------second-------------------------------- */
+    .second {
+        font-size: larger;
+        padding: 25px;
+        width: 782px;
+        top: 1246px;
+    }
+    .action {
+        font-size: xx-large;
+        width: 400px;
+    }
+    .act-title {
+        left: 300px;
+        top: -50px;
+    }
+    /* ------------------------------------------------------third-------------------------------- */
+    .third {
+        width: 632px;
+        top: 1723px;
+    }
+    .third-text {
+        padding: 40px 0 0 0;
+        text-align: center;
+        font-size: 50px;
+        width: 650px;
+    }
+    .card-on {
+        flex-direction: row;
+        padding: 21px;
+        width: 600px;
+        height: 850px;
+        text-align: center;
+    }
+    .do-title {
+        left: 300px;
+    }
+    .third-img {
+        width: 540px;
+        height: 350px;
+        position: absolute;
+    }
+    .third-btn {
+        font-size: 30px;
+        top: 779px;
+        padding: 15px 40px 15px 40px;
+        text-align: 375px;
+    }
+    .third-card-title {
+        padding: 10px 0 0 0;
+        font-size: 45px;
+        width: auto;
+        margin: 320px 0 0 0;
+    }
+    .third-card-text {
+        font-size: 40px;
+        width: 515px;
+    }
+    /* -------------------------------------------------fourth------------------------------------------- */
+    .fourth {
+        width: 673px;
+        top: 5252px;
+        flex-direction: column;
+        background-size: cover;
+    }
+    .fourth-text {
+        font-size: 80px;
+        width: 450px;
+    }
+    .fourth-btn {
+        font-size: x-large;
+    }
+    .fourth-title {
+        top: 620px;
+        left: 250px;
+        font-size: xx-large;
+    }
+    .content {
+        width: 600px;
+        height: 200px;
+        padding: 25px 15px 15px 30px;
+    }
+    .content-h {
+        font-size: 55px;
+    }
+    .content-p {
+        width: 480px;
+        font-size: xx-large;
+    }
+    /* ----------------------------------------------fifth---------------------------------------- */
+    .fifth {
+        padding: 0;
+        position: absolute;
+        top: 7225px;
+    }
+    .fifth-text {
+        /* position: relative; */
+        width: 520px;
+        height: 300px;
+        top: 700px;
+        left: 87px;
+        padding: 40px;
+        text-align: center;
+    }
+    .fifth-h {
+        font-size: 40px;
+        width: 540px;
+    }
+    .fifth-p {
+        font-size: x-large;
+        padding: 20px 0 0 0;
+    }
+    .fifth-btn {
+        font-size: xx-large;
+        padding: 10px 20px 10px 20px;
+        top: 1110px;
+        left: 283px;
+    }
+    .fifth-title {
+        left: 300px;
+        font-size: xx-large;
+        top: 9px;
+    }
+    .fifth-img {
+        width: 600px;
+        height: 600px;
+        padding: 30px 0 0 92px;
+    }
+    /* -------------------------------------------sixth---------------------- */
+    .sixth {
+        padding: 35px 35px 35px 45px;
+        text-align: center;
+        width: 752px;
+        height: 2750px;
+        top: 8500px;
+    }
+    .sixth-heading {
+        text-align: center;
+        font-size: 72px;
+        width: 539px;
+        padding: 0 0 0 100px;
+    }
+    .sixth-one {
+        flex-direction: column;
+        padding: 50px 0 150px 0;
+    }
+    .sixth-two {
+        flex-direction: column;
+    }
+    .sixth-img {
+        width: 650px;
+        height: 500px;
+        padding: 0px 0 0 30px;
+    }
+    .sixth-content {
+        padding: 0;
+    }
+    .sixth-title-one {
+        position: absolute;
+        top: 290px;
+        font-size: xx-large;
+        left: 340px;
+    }
+    .sixth-title-two {
+        top: 1590px;
+        font-size: xx-large;
+        left: 300px;
+    }
+    .sixth-h {
+        padding: 10px 0 10px 0;
+        font-size: 50px;
+        width: auto;
+    }
+    .sixth-p {
+        font-size: 45px;
+        width: 590px;
+        padding: 0 0 0 57px;
+    }
+    .sixth-btn-one {
+        font-size: xx-large;
+        top: 1440px;
+        left: 270px;
+    }
+    .sixth-btn-two {
+        left: 270px;
+        font-size: xx-large;
+        top: 2732px;
+    }
+    .sixth-blocks {
+        padding: 25px 0 0 30px;
+    }
+    /* -------------------------------------------------seventh------------------------------ */
+    .seventh {
+        padding: 45px;
+        width: 743px;
+        top: 11320px;
+        display: block;
+        left: 0;
+        height: 200px;
+    }
+    .seventh-text {
+        padding: 0 0 0 70px;
+        font-size: 40px;
+        width: 600px;
+    }
+    .seventh-input {
+        padding: 10px 20px 10px 20px;
+        font-size: 25px;
+        position: absolute;
+        top: 100px;
+        display: block;
+    }
+    .seventh-btn {
+        font-size: x-large;
+        width: 130px;
+        position: absolute;
+        top: 100px;
+        left: 400px;
+    }
+    /* -----------------------------------------footer------------------------------------ */
+    .footer {
+        display: flex;
+        height: 380px;
+        width: auto;
+        top: 11600px;
+    }
+    .fr-title{
+        position: absolute;
+        width: 550px;
+        padding: 50px 0 0 0;
+        font-size: 40px;
+        left: 90px;
+    }
+    .fr-container {
+        font-size: 12px;
+        position: relative;
+    }
+    .fr-details {
+        width: 250px;
+        font-size: x-large;
+        position: absolute;
+    }
+    .fr-one {
+        left: 300px;
+    }
+    .fr-two {
+        top: 200px;
+        left: 300px;
+    }
+    .fr-three {
+        width: 280px;
+        top: 220px;
+    }
+    .fr-text {
+        font-size: 60px;
+        position: absolute;
+        top: 440px;
+        left: 470px;
+        padding: 0;
+    }
+}

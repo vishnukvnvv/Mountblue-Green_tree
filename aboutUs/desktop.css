@@ -1,0 +1,389 @@
+body {
+    font-family: Helvetica;
+    color: #354463;
+}
+
+.header {
+    display: flex;
+    width: 1193px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.title {
+    text-decoration: none;
+    font-size: large;
+    color: #354463;
+}
+
+.options {
+    padding: 10px;
+}
+
+.nav-links {
+    padding: 0px 60px 0 60px;
+    text-decoration: none;
+    color: #354463;
+}
+
+.header-btn {
+    color: #354463;
+    background: #C1F7D5;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/* ----------------------------------------first----------------------------------- */
+
+.first {
+    background-image: url(/images/assets/assets/about-us/annie-spratt-427339-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 941px;
+    position: absolute;
+    left: 0px;
+    height: 375px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 150px;
+}
+
+.intro-card {
+    background: white;
+    color: black;
+    width: 425px;
+    height: 280px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.intro-h1 {
+    font-size: 28px;
+    padding: 10px 0 0 25px;
+    width: 440px;
+    color: #354463;
+    height: 190px;
+    font-family: Helvetica;
+}
+
+.intro-text {
+    font-family: "Flood";
+    font-size: 72px;
+    width: 220px;
+    height: 230px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    color: white;
+}
+
+.card-title {
+    color: white;
+    background: #354463;
+    font-family: monospace;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+}
+
+/* -----------------------------------------------second--------------------------------- */
+
+.second {
+    background: #354463;
+    height: auto;
+    width: 1041px;
+    padding: 100px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 490px;
+}
+
+.do-title {
+    background: white;
+    color: #354463;
+}
+
+.second-text {
+    width: 805px;
+    padding: 80px 0 0 0;
+}
+
+.second-content {
+    display: grid;
+    padding: 25px 0 0 0;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.second-items {
+    padding: 20px;
+}
+
+.second-img {
+    padding: 10px;
+}
+
+.second-p {
+    font-size: smaller;
+    width: 150px;
+}
+
+/* ---------------------------------------third------------------------------------ */
+
+.third {
+    left: 0;
+    padding: 70px 60px 60px 60px;
+    position: absolute;
+    top: 1367px;
+}
+
+.third-title {
+    top: 110px;
+}
+
+.third-h {
+    font-size: 40px;
+    width: 500px;
+}
+
+.third-p {
+    font-size: x-large;
+}
+
+.third-text {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 110px 0 0 0;
+}
+
+.third-content {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 50px 30px;
+    padding: 30px 0 0 0;
+}
+
+.third-name {
+    top: 600px;
+    width: auto;
+    position: absolute;
+    font-size: 14px;
+    padding: 0 29px 0 30px;
+}
+
+.one {
+    left: 100px;
+}
+
+.two {
+    left: 500px;
+}
+
+.three {
+    left: 900px;
+}
+
+.four {
+    top: 975px;
+    left: 100px;
+}
+
+.five {
+    left: 500px;
+    top: 975px;
+}
+
+.six {
+    top: 975px;
+    left: 900px;
+}
+
+/* ----------------------------------fourth-------------------------------------- */
+
+.fourth {
+    left: 0;
+    width: 700px;
+    background-image: url(/images/assets/assets/about-us/Impact\ Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #354463;
+    width: 1041px;
+    padding: 140px 100px 100px 100px;
+    position: absolute;
+    top: 2440px;
+}
+
+.fourth-title {
+    background: white;
+    color: #354463;
+    left: 510px;
+}
+
+.fourth-text {
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    width: 520px;
+    padding: 50px 0 25px 235px;
+}
+
+.fourth-content {
+    color: white;
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.fourth-items {
+    width: 195px;
+    font-size: larger;
+}
+
+.fourth-h {
+    font-family: flood;
+    font-size: 50px;
+    text-align: center;
+}
+
+.fourth-p {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* -----------------------------------fifth-------------------------------------- */
+
+.fifth {
+    position: absolute;
+    top: 2924px;
+    left: 0;
+    background: #354463;
+    width: 1241px;
+    padding: 0 0 50px 0;
+}
+
+.fifth-text {
+    position: relative;
+}
+
+.fifth-head {
+    width: 700px;
+    font-size: 60px;
+    padding: 90px 0 0 0;
+}
+
+.fifth-arrow {
+    background: #C1F7D5;
+    padding: 25px;
+    border-radius: 80px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+}
+
+.fifth-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 100px;
+    padding: 300px 0 0 150px;
+    height: 530px;
+    overflow: hidden;
+}
+
+.fifth-title {
+    top: -20px;
+    background: white;
+    color: #354463;
+    left: 50px;
+}
+
+.fifth-items {
+    background: white;
+    position: relative;
+    width: 393px;
+}
+
+.fifth-img {
+    width: 393px;
+}
+
+.fifth-h {padding: 20px 0px 20px 25px;font-size: 22px;}
+
+.fifth-p {
+    padding: 15px 0 15px 20px;
+    font-size: 20px;
+}
+
+.fifth-btn {
+    width: fit-content;
+    left: 25px;
+    position: absolute;
+}
+/* ------------------------------------------------sixth--------------------------------- */
+.sixth {
+    background: #C1F7D5;
+    display: flex;
+    width: 1111px;
+    padding: 65px;
+    position: absolute;
+    top: 3804px;
+    left: 0;
+    justify-content: space-evenly;
+}
+
+.sixth-text {
+    font-size: x-large;
+    width: 500px;
+}
+
+.sixth-input {
+    border: none;
+    padding: 10px 25px 10px 20px;
+    border-radius: 30px;
+}
+
+.sixth-btn {
+    color: #c1f7d5;
+    background: #354463;
+    padding: 10px 15px 10px 15px;
+    height: 15px;
+}
+/* -----------------------------------------footer------------------------------------ */
+.footer {
+    padding: 40px 0 0 125px;
+    display: flex;
+    position: absolute;
+    top: 3975px;
+    left: 0;
+}
+
+.fr-title {
+    color: #354463;
+    font-size: 21px;
+}
+
+.fr-text {
+    color: #354463;
+    font-size: 35px;
+    top: 40px;
+    left: 900px;
+}
+
+.fr-container {
+    display: flex;
+    padding: 0px 50px 0px 50px;
+}
+
+.fr-details {
+    width: 150px;
+    margin-left: 25px;
+}
+
+.fr-h {
+    border-bottom: 1px solid #354463;
+    padding: 0 0 15px 0;
+}

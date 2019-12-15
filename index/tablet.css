@@ -1,0 +1,218 @@
+@media (max-width: 1024px) {
+    .header {
+        display: block;
+        padding-left: 100px;
+    }
+    .title {
+        font-size: xx-large;
+    }
+    .nav-links {
+        font-size: x-large;
+        padding: 0 70px 0 0;
+    }
+    .header-btn {
+        position: absolute;
+        top: 50px;
+        left: 700px;
+        font-size: xx-large;
+        padding: 15px 20px 15px 20px;
+    }
+    /* ---------------------------------------------------first----------------------------------- */
+    .first {
+        flex-direction: column-reverse;
+        height: 530px;
+        width: 824px;
+        padding: 80px 100px 100px 100px;
+    }
+    .intro-card {
+        padding: 70px 30px 30px 70px;
+        width: auto;
+    }
+    .card-title {
+        top: 280px;
+        font-size: x-large;
+    }
+    .intro-h {
+        width: auto;
+        font-size: 50px;
+    }
+    .intro-p {
+        font-size: larger;
+    }
+    .intro-text {
+        padding: 0px 0 50px 0;
+    }
+    /* ---------------------------------------------second---------------------------------------- */
+    .second {
+        grid-template-columns: 50% 50%;
+        width: 964px;
+        top: 842px;
+        font-size: xx-large;
+    }
+    .act-title {
+        font-size: x-large;
+        padding: 15px;
+        top: -45px;
+        left: 410px;
+    }
+    /* -------------------------------------------------------third------------------------------- */
+    .third {
+        padding: 100px;
+        font-size: x-large;
+        top: 1254px;
+        width: 825px;
+    }
+    .do-title {
+        padding: 20px;
+        font-size: x-large;
+        top: 20px;
+    }
+    .third-text {
+        font-size: 55px;
+    }
+    .cards {
+        grid-template-columns: 100%;
+        row-gap: 90px;
+    }
+    .card-on {
+        flex-direction: column;
+        padding: 35px 0px 0 450px;
+        width: 370px;
+        height: 270px;
+    }
+    .third-img {
+        position: absolute;
+        left: 45px;
+        width: 350px;
+    }
+    .third-btn {
+        position: absolute;
+        left: 170px;
+        top: 220px;
+        font-size: large;
+    }
+    .third-card-title {
+        width: 300px;
+        margin: 0;
+    }
+    .third-card-text {
+        width: 300px;
+    }
+    /* -------------------------------------------------fourth------------------------------------------- */
+    .fourth {
+        width: 864px;
+        top: 2954px;
+    }
+    .fourth-text {
+        width: 300px;
+    }
+    .fourth-btn {
+        padding: 15px 25px 15px 25px;
+        font-size: large;
+    }
+    .content {
+        height: 130px;
+        width: 390px;
+    }
+    .content-p {
+        width: 280px;
+    }
+    /* ----------------------------------------------fifth---------------------------------------- */
+    .fifth {
+        padding: 100px 100px 100px 110px;
+        flex-direction: column-reverse;
+        top: 4100px;
+    }
+    .fifth-text {
+        left: 200px;
+        width: 625px;
+        height: 200px;
+        height: 10;
+        top: 580px;
+    }
+    .fifth-h {
+        width: auto;
+        font-size: 30px;
+    }
+    .fifth-p {
+        font-size: x-large;
+    }
+    .fifth-btn {
+        left: 190px;
+        padding: 18px 30px 18px 30px;
+        font-size: x-large;
+        top: 930px;
+        border-radius: 35px;
+    }
+    .fifth-title {
+        font-size: xx-large;
+        top: 75px;
+        left: 400px;
+    }
+    .fifth-img {
+        width: 720px;
+        height: 680px;
+    }
+    /* -----------------------------------------------------sixth--------------------------------- */
+    .sixth {
+        width: 823px;
+        top: 5200px;
+        height: 1100px;
+    }
+    .sixth-one {
+        padding: 50px 0 50px 0;
+    }
+    .sixth-title-one {
+        top: 250px;
+    }
+    .sixth-title-two {
+        top: 745px;
+    }
+    .sixth-btn-two {
+        top: 1120px;
+    }
+    .sixth-img {
+        height: 400px;
+        width: 400px;
+    }
+    .space {
+        padding: 64px 100px 0 50px;
+    }
+    /* -------------------------------------------------seventh------------------------------ */
+    .seventh {
+        width: 894px;
+        top: 6399px;
+    }
+    .seventh-text {
+        position: absolute;
+        font-size: xx-large;
+        width: 675px;
+    }
+    .seventh-input {
+        margin: 100px 0 0 85px;
+        padding: 12px 70px 12px 25px;
+        font-size: x-large;
+    }
+    .seventh-btn {
+        margin: 100px 0 0 150px;
+        font-size: x-large;
+        padding: 10px 25px 25px 25px;
+    }
+    /* -----------------------------------------footer------------------------------------ */
+    .footer {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        top: 6700px;
+    }
+    .fr-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 50px;
+    }
+    .fr-text {
+        position: absolute;
+        font-size: 50px;
+        top: 179px;
+        left: 750px;
+    }
+}

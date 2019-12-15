@@ -1,0 +1,268 @@
+@media (max-width: 360px) {
+    #header {
+        margin: 10px 10px 10px 25px;
+    }
+    .title {
+        display: block;
+        font-size: 20px;
+        padding: 10px 0 0 0px;
+        position: absolute;
+    }
+    #nav-bar {
+        display: block;
+    }
+    .nav-link {
+        font-size: 12px;
+        margin: 0 0 0 200px;
+    }
+    #donate {
+        display: block;
+        margin: 10px 0 0 0;
+        padding: 10px 100px 10px 100px;
+    }
+    #first {
+        width: 119px;
+        height: 597px;
+        margin: 20px 0 0 -8px;
+    }
+    #intro-p {
+        margin-left: -30px;
+        margin-top: -90px;
+    }
+    #intro-h1 {
+        font-size: 22px;
+        width: 245px;
+        text-align: center;
+        margin-left: -46px;
+    }
+    #intro-card {
+        width: 280px;
+        height: 211px;
+        padding: 5px 0x 4px 8px;
+        text-align: center;
+        margin: 0px 0 155px -111px;
+    }
+    .intro-text {
+        position: absolute;
+        font-size: 60px;
+        top: 245px;
+        left: 5px;
+        width: 20px;
+    }
+    .card-title {
+        height: 40px;
+        width: 160px;
+        margin-left: 30px;
+    }
+    .second {
+        margin: -225px -6px 0 -8px;
+        font-size: larger;
+        padding: 15px;
+        width: 389px;
+    }
+    .action {
+        margin: 30px;
+    }
+    .act-title {
+        margin: -35px 0 0px 110px;
+    }
+    .se-text {
+        font-size: x-small;
+    }
+    .do-title {
+        margin: -45px 0 0 20px;
+    }
+    .third {
+        margin-left: -8px;
+        height: 1500px;
+        width: 218px;
+    }
+    .third-text {
+        text-align: center;
+        margin: 20px 0 30px -10px;
+        font-size: 24px;
+        width: 235px;
+    }
+    .cards {
+        margin-left: 40px;
+    }
+    .card-on {
+        flex-direction: row;
+        padding: 0;
+        width: 300px;
+        height: 350px;
+        text-align: center;
+        margin: 0px 0 105px -75px;
+    }
+    .third-img {
+        margin: 0;
+        width: 248px;
+        height: 176px;
+        margin: -75px 0 15px 0px;
+        position: initial;
+    }
+    .third-btn {
+        position: initial;
+        margin: 0px 0 0 -15px;
+    }
+    .third-card-title {
+        margin: 0px 0 20px -15px;
+        font-size: medium;
+    }
+    .third-card-text {
+        margin: 0px 0 20px 20px;
+        font-size: medium;
+        width: 215px;
+    }
+    .fourth {
+        width: 259px;
+        margin-left: -8px;
+        flex-direction: column;
+    }
+    .fourth-text {
+        margin-left: -50px;
+        font-size: 50px;
+        margin-top: -10px;
+    }
+    .fourth-btn {
+        margin: -15px 0 0 -40px;
+    }
+    .content {
+        width: 310px;
+        padding: 25px 15px 15px 30px;
+        margin: 0 0 50px -50px;
+    }
+    .content-h {
+        font-size: xx-large;
+        margin-top: -15px;
+    }
+    .content-p {
+        width: 190px;
+        font-size: large;
+    }
+    .fifth {
+        padding: 0;
+        margin: -30px 0 0 55px;
+    }
+    .fifth-text {
+        position: relative;
+        width: 220px;
+        height: auto;
+        margin: 20px 0px 0 -20px;
+        padding: 40px;
+        text-align: center;
+    }
+    .fifth-h {
+        font-size: medium;
+    }
+    .fifth-p {
+        font-size: x-small;
+    }
+    .fifth-btn {
+        font-size: smaller;
+        padding: 10px 20px 10px 20px;
+        margin: 15px 0 0 75px;
+    }
+    .fifth-title {
+        margin-left: 70px;
+        font-size: large;
+    }
+    .fifth-img {
+        width: 300px;
+        height: 300px;
+    }
+    .sixth {
+        margin: 40px 0 0 -8px;
+        padding: 35px 35px 35px 45px;
+        text-align: center;
+        width: 338px;
+    }
+    .sixth-heading {
+        width: 300px;
+        margin-left: 0px;
+    }
+    .sixth-one {
+        flex-direction: column;
+        margin-left: 19px;
+    }
+    .sixth-two {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .sixth-img {
+        width: 290px;
+        height: 290px;
+    }
+    .sixth-content {
+        padding: 0;
+    }
+    .sixth-title-one {
+        position: absolute;
+        margin-top: -310px;
+        margin-left: 50px;
+    }
+    .sixth-title-two {
+        position: absolute;
+        margin-top: -310px;
+        margin-left: 50px;
+    }
+    .sixth-h {
+        margin-top: 25px;
+    }
+    .sixth-btn {
+        margin: 0px 0 0 65px;
+    }
+    .sixth-blocks {
+        height: 1560px;
+    }
+    .seventh {
+        padding: 45px;
+        margin: 0 0 0 -8px;
+        width: 329px;
+    }
+    .seventh-text {
+        width: 345px;
+        margin: 0 0 0 0;
+        font-size: 21px;
+    }
+    .seventh-input {
+        padding: 10px 20px 10px 20px;
+        font-size: 12px;
+        margin: 100px 0 0 0;
+    }
+    .seventh-btn {
+        font-size: smaller;
+        width: 70px;
+        margin: 100px 0 0 25px;
+        padding: 10px 15px 10px 15px;
+    }
+    .footer {
+        height: 380px;
+        width: 369px;
+        padding: 20px 20px 20px 30px;
+        margin: 0 0 0 -8px;
+    }
+    .fr-container {
+        display: block;
+        font-size: 12px;
+        width: -60px;
+    }
+    .fr-one {
+        margin: 0 0 0 100px;
+    }
+    .fr-two {
+        margin: 40px 0 0 100px;
+    }
+    .fr-three {
+        margin: -95px 0 0 -70px;
+    }
+    .fr-details {
+        width: 130px;
+    }
+    .fr-text {
+        font-size: xx-large;
+        display: flex;
+        position: relative;
+        margin: 10px 0 0 80px;
+    }
+}

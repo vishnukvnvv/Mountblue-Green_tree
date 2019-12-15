@@ -1,0 +1,453 @@
+body {
+    font-family: helvetica;
+    color: #354463;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.title {
+    text-decoration: none;
+    font-size: large;
+    color: #354463;
+}
+
+.options {
+    padding: 10px;
+}
+
+.nav-links {
+    padding: 0px 60px 0 60px;
+    text-decoration: none;
+    color: #354463;
+}
+
+.header-btn {
+    color: #354463;
+    background: #C1F7D5;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------first--------------------------------- */
+
+.first {
+    background-image: url(/images/assets/assets/home/annie-spratt-135307-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    left: 0;
+    width: 1041px;
+    height: 375px;
+    display: flex;
+    padding: 150px 100px 100px 100px;
+}
+
+.intro-card {
+    background: white;
+    color: black;
+    width: 385px;
+    height: 250px;
+    padding: 70px 30px 30px 70px;
+}
+
+.card-title {
+    color: white;
+    background: #354463;
+    font-family: monospace;
+    position: absolute;
+    top: 130px;
+    padding: 10px 20px 10px 20px;
+}
+
+.intro-h {
+    font-size: 35px;
+    width: 350px;
+    color: #354663;
+    height: 190px;
+}
+
+.intro-p {
+    font-size: small;
+    text-decoration: underline;
+    color: #354663;
+}
+
+.intro-text {
+    padding: 0 0 0 120px;
+    width: 200px;
+    font-size: 70px;
+    font-family: flood;
+    color: white;
+}
+
+/* --------------------------------------------------second----------------------------------- */
+
+.second {
+    position: absolute;
+    top: 715px;
+    left: 0;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 30px;
+    background: #C1F7D5;
+    height: auto;
+    width: 1181px;
+    font-family: Helvetica;
+}
+
+.act-title {
+    position: absolute;
+    left: 525px;
+    top: -30px;
+}
+
+/* -----------------------------------------------third---------------------------------------- */
+
+.third {
+    position: absolute;
+    top: 861px;
+    left: 0;
+    background: #354463;
+    height: auto;
+    width: 1041px;
+    padding: 100px;
+    color: white;
+}
+
+.do-title {
+    background: white;
+    color: #354463;
+    top: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 75px 0 0 0;
+}
+
+.card-on {
+    width: 275px;
+    height: 525px;
+    background: white;
+    color: #354463;
+    padding: 6px;
+    position: relative;
+}
+
+.third-text {
+    width: 805px;
+}
+
+.third-img {
+    width: 275px;
+    height: 224px;
+    position: absolute;
+    left: 30px;
+    top: -20px;
+}
+
+.third-card-title {
+    padding: 0 0 0 20px;
+    font-size: xx-large;
+    margin: 230px 0 0 0;
+}
+
+.third-card-text {
+    padding: 0 30px 0 25px;
+    font-size: large;
+}
+
+.third-btn {
+    color: black;
+    background: #C1F7D5;
+    padding: 10px 25px 10px 25px;
+    border-radius: 40px;
+    border: none;
+    position: absolute;
+    top: 550px;
+    left: 80px;
+}
+
+/* -------------------------------------------------fourth------------------------------------------- */
+
+.fourth {
+    background-image: url(/images/assets/assets/home/did-you-know-background.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    width: 1081px;
+    position: absolute;
+    top: 1790px;
+    left: 0;
+}
+
+.fourth-one {
+    padding: 0 0 0 30px;
+}
+
+.fourth-text {
+    font-size: 64px;
+    width: 310px;
+    color: white;
+    font-family: flood;
+}
+
+.fourth-btn {
+    color: #354463;
+    background: #C1F7D5;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+.fourth-two {
+    padding: 50px 0 0 0;
+}
+
+.fourth-title {
+    left: 680px;
+    position: absolute;
+    top: 115px;
+}
+
+.container {
+    display: grid;
+    row-gap: 75px;
+    /* flex-direction: column; */
+}
+
+.content {
+    padding: 30px 15px 15px 35px;
+    display: flex;
+    background: white;
+    height: 150px;
+    width: 475px;
+}
+
+.content-text {
+    padding: 20px 0 0 10px;
+}
+
+.content-h {
+    font-size: xx-large;
+}
+
+.content-p {
+    width: 340px;
+    font-size: 20px;
+}
+
+.media {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 17px;
+}
+
+.fourth-img {
+    background: #C1F7D5;
+    padding: 11px;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+}
+
+/* ----------------------------------------------fifth---------------------------------------- */
+
+.fifth {
+    display: flex;
+    padding: 100px 100px 100px 110px;
+    position: absolute;
+    top: 3050px;
+    left: 0;
+}
+
+.fifth-one {
+    width: 330px;
+    padding: 0 0 0 20px;
+}
+
+.fifth-text {
+    background: #354463;
+    color: white;
+    position: absolute;
+    padding: 45px;
+    widows: 350px;
+    height: 150px;
+    top: 270px;
+}
+
+.fifth-h {
+    font-size: 20px;
+    width: 285px;
+}
+
+.fifth-p {
+    font-size: small;
+}
+
+.fifth-btn {
+    position: absolute;
+    top: 540px;
+}
+
+.fifth-title {
+    position: absolute;
+    top: 85px;
+    left: 500px;
+}
+
+.fifth-img {
+    width: 620px;
+    height: 580px;
+}
+/* --------------------------------------------------------sixth-------------------------------------- */
+.sixth {
+    background: #354463;
+    width: 1041px;
+    height: 1240px;
+    color: white;
+    padding: 100px 100px 0 100px;
+    position: absolute;
+    top: 3800px;
+    left: 0;
+}
+
+.sixth-heading {
+    font-family: flood;
+    font-size: 50px;
+    width: 640px;
+}
+
+.sixth-blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth-one {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0 0 0;
+}
+
+.sixth-two {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 0 0 0;
+}
+
+.sixth-img {
+    width: 512px;
+    height: 512px;
+}
+
+.sixth-content {
+    padding: 70px 0 0 50px;
+}
+
+.space {
+    padding: 70px 200px 0 50px;
+}
+
+.sixth-title-one {
+    background: white;
+    color: #354463;
+    top: 244px;
+}
+
+.sixth-title-two {
+    background: white;
+    color: #354463;
+    top: 805px;
+}
+
+.sixth-h {
+    font-size: xx-large;
+    width: 300px;
+}
+
+.sixth-p {
+    font-size: larger;
+    width: 300px;
+}
+
+.sixth-btn-one {
+    position: absolute;
+    top: 640px;
+    width: fit-content;
+}
+
+.sixth-btn-two {
+    position: absolute;
+    top: 1180px;
+    width: fit-content;
+}
+/* -------------------------------------------------seventh------------------------------ */
+.seventh {
+    background: #C1F7D5;
+    display: flex;
+    width: 1111px;
+    padding: 65px;
+    position: absolute;
+    top: 5140px;
+    left: 0;
+    justify-content: space-evenly;
+}
+
+.seventh-text {
+    font-size: x-large;
+    width: 500px;
+}
+
+.seventh-input {
+    border: none;
+    padding: 10px 25px 10px 20px;
+    border-radius: 30px;
+}
+
+.seventh-btn {
+    color: #c1f7d5;
+    background: #354463;
+    padding: 10px 15px 10px 15px;
+    height: 15px;
+}
+/* -----------------------------------------footer------------------------------------ */
+.footer {
+    padding: 40px 0 0 125px;
+    display: flex;
+    position: absolute;
+    top: 5320px;
+    left: 0;
+}
+
+.fr-title {
+    color: #354463;
+    font-size: 21px;
+}
+
+.fr-text {
+    color: #354463;
+    font-size: 35px;
+}
+
+.fr-container {
+    display: flex;
+    padding: 0px 50px 0px 50px;
+}
+
+.fr-details {
+    width: 150px;
+    margin-left: 25px;
+}
+
+.fr-h {
+    border-bottom: 1px solid #354463;
+    padding: 0 0 15px 0;
+}

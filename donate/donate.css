@@ -1,0 +1,57 @@
+.title{
+    text-align: center;
+    font-size: 28px;
+    font-family: Helvetica;
+}
+@media (max-width: 1024px) {
+    .title{
+        height: 112px;
+        font-size: 22px;
+        }
+}
+@media (max-width: 360px) {
+    .title{
+        height: 80px;
+        font-size: 18px;
+    }
+}
+
+.parent-form{
+    background-image: url(/images/assets/assets/donation/annie-spratt-427340-unsplash.png);
+    background-repeat: no-repeat;
+    height: 1224px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 70px;
+    color: white;
+}
+.text{
+    width: 384px;
+    height: 362px;
+    font-size: 28px;   
+    margin: 0 120px 0 0;
+    font-family: sans-serif;
+    padding: 0 0 0 20px;
+}
+.form{
+    height: 1016px;
+    width: 640px;
+    padding: 30px;
+    background:#354463;
+    font-family: Helvetica;
+}
+.content{
+    border: none;
+    background-color: #354463;
+    font-size: 15px;
+    border-bottom: 2px solid #C1F7D5;
+}
+.table{
+    height: 1000px;
+}
+.month,.year{
+    width: 40px
+}
+.year{
+    margin-left: -150px;
+}
