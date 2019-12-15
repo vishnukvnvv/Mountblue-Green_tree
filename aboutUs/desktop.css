@@ -367,6 +367,8 @@ body {
 }
 
 .fr-text {
+    padding: 0;
+    text-align: right;
     color: #354463;
     font-size: 35px;
     top: 40px;

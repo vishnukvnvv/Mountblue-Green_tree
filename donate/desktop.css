@@ -5,6 +5,8 @@ body {
 .title {
     text-align: center;
     font-size: 28px;
+    text-decoration: none;
+    color: #354463;
 }
 
 /* -----------------------------------------first----------------------------- */

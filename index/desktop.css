@@ -308,7 +308,9 @@ body {
     width: 620px;
     height: 580px;
 }
+
 /* --------------------------------------------------------sixth-------------------------------------- */
+
 .sixth {
     background: #354463;
     width: 1041px;
@@ -389,7 +391,9 @@ body {
     top: 1180px;
     width: fit-content;
 }
+
 /* -------------------------------------------------seventh------------------------------ */
+
 .seventh {
     background: #C1F7D5;
     display: flex;
@@ -418,7 +422,9 @@ body {
     padding: 10px 15px 10px 15px;
     height: 15px;
 }
+
 /* -----------------------------------------footer------------------------------------ */
+
 .footer {
     padding: 40px 0 0 125px;
     display: flex;
@@ -433,8 +439,10 @@ body {
 }
 
 .fr-text {
+    padding: 0;
     color: #354463;
     font-size: 35px;
+    text-align: right;
 }
 
 .fr-container {

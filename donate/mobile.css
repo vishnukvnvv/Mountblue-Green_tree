@@ -1,79 +1,80 @@
 @media (max-width: 360px) {
     .title {
         height: 80px;
-        font-size: 18px;
+        width: 582px;
+        font-size: 21px;
     }
     /* ----------------------------------------first----------------------------- */
     .first {
         top: 100px;
-        width: 345px;
-        padding: 150px 0 50px 15px;
+        width: 579px;
+        padding: 150px 0 50px 50px;
     }
     .first-text {
-        width: 350px;
-        font-size: 35px;
-        left: 10px;
+        width: 460px;
+        font-size: 48px;
+        left: 50px;
         padding: 0px;
     }
     .form {
-        width: 300px;
-        padding: 15px;
+        width: 490px;
+        padding: 20px;
     }
     .form-one {
-        padding: 0 0 20px 0;
+        padding: 0 0 30px 0;
     }
     .form-two {
-        padding: 0 0 20px 0;
+        padding: 0 0 30px 0;
     }
     .form-three {
-        padding: 0 0 20px 0;
+        padding: 0 0 30px 0;
     }
     .end {
         flex-direction: column-reverse;
     }
     .back {
-        font-size: 10px;
+        font-size: 15px;
         padding: 20px 0 0px 0;
     }
     .form-btn {
-        font-size: 15px;
+        font-size: 25px;
         width: fit-content;
-        padding: 10px 80px 10px 80px;
+        padding: 10px 130px 10px 130px;
     }
     .form-title {
-        font-size: 20px;
-        padding: 0 0 15px 0;
+        font-size: 29px;
+        padding: 0px 0 20px 0;
     }
     .label {
-        font-size: 12px;
-        padding: 0 0 5px 0;
+        font-size: 20px;
+        padding: 0 0 10px 0;
     }
     .input {
-        font-size: 14px;
-        padding: 0 0 5px 0;
+        font-size: 20px;
+        padding: 0 0 10px 0;
     }
     .name {
-        width: 130px;
+        width: 200px;
     }
     .length {
-        width: 280px;
+        width: 440px;
     }
     .min {
-        width: 55px;
+        width: 75px;
     }
     /* -----------------------------------------footer------------------------------------ */
     .footer {
         display: flex;
         height: 380px;
         width: auto;
-        top: 11600px;
+        top: 1140px;
     }
-    .fr-title{
+    .fr-title {
         position: absolute;
         width: 550px;
         padding: 50px 0 0 0;
-        font-size: 40px;
-        left: 90px;
+        font-size: 35px;
+        left: 50px;
     }
     .fr-container {
         font-size: 12px;
@@ -81,25 +82,27 @@
     }
     .fr-details {
         width: 250px;
-        font-size: x-large;
+        font-size: 20px;
         position: absolute;
     }
     .fr-one {
-        left: 300px;
+        left: 200px;
+        top: 40px;
     }
     .fr-two {
         top: 200px;
-        left: 300px;
+        left: 200px;
     }
     .fr-three {
-        width: 280px;
-        top: 220px;
+        width: 250px;
+        top: 200px;
+        left: -95px;
     }
     .fr-text {
         font-size: 60px;
         position: absolute;
         top: 440px;
-        left: 470px;
+        left: 370px;
         padding: 0;
     }
 }
