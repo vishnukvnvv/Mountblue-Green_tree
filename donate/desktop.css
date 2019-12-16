@@ -17,9 +17,10 @@ body {
     position: absolute;
     left: 0;
     color: white;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     padding: 150px 0 150px 150px;
-    width: 1091px;
+    width: 87.8%;
 }
 
 .first-text {
@@ -140,8 +141,10 @@ body {
 .footer {
     padding: 40px 0 0 125px;
     display: flex;
+    justify-content: space-between;
     position: absolute;
     top: 1240px;
+    width: 89%;
     left: 0;
 }
 
