@@ -1,268 +1,326 @@
 @media (max-width: 360px) {
-    #header {
-        margin: 10px 10px 10px 25px;
+    .header {
+        width: 725px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 50px 50px 110px 50px;
     }
     .title {
-        display: block;
-        font-size: 20px;
-        padding: 10px 0 0 0px;
-        position: absolute;
-    }
-    #nav-bar {
-        display: block;
-    }
-    .nav-link {
-        font-size: 12px;
-        margin: 0 0 0 200px;
-    }
-    #donate {
-        display: block;
-        margin: 10px 0 0 0;
-        padding: 10px 100px 10px 100px;
-    }
-    #first {
-        width: 119px;
-        height: 597px;
-        margin: 20px 0 0 -8px;
-    }
-    #intro-p {
-        margin-left: -30px;
-        margin-top: -90px;
-    }
-    #intro-h1 {
-        font-size: 22px;
-        width: 245px;
-        text-align: center;
-        margin-left: -46px;
-    }
-    #intro-card {
-        width: 280px;
-        height: 211px;
-        padding: 5px 0x 4px 8px;
-        text-align: center;
-        margin: 0px 0 155px -111px;
-    }
-    .intro-text {
-        position: absolute;
-        font-size: 60px;
-        top: 245px;
-        left: 5px;
-        width: 20px;
+        font-size: 50px;
     }
     .card-title {
-        height: 40px;
-        width: 160px;
-        margin-left: 30px;
+        top: 40%;
+        width: 20%;
+        font-size: 200%;
+        left: 34%;
     }
+    .options {
+        display: flex;
+        padding-left: 56px;
+        flex-direction: column;
+    }
+    .nav-links {
+        font-size: 29px;
+        padding-bottom: 10px;
+    }
+    .header-btn {
+        left: 70px;
+        top: 210px;
+        width: max-content;
+        padding: 10px 190px 10px 190px;
+        font-size: 50px;
+    }
+    /* -----------------------------------------------first--------------------------------------- */
+    .first {
+        width: 222%;
+        padding: 10% 10% 20% 10%;
+    }
+    .intro-card {
+        text-align: center;
+    }
+    .intro-h {
+        font-size: 300%;
+    }
+    .intro-p {
+        font-size: 220%;
+    }
+    .intro-text {
+        font-size: 650%;
+    }
+    /* -----------------------------------------------------second-------------------------------- */
     .second {
-        margin: -225px -6px 0 -8px;
         font-size: larger;
-        padding: 15px;
-        width: 389px;
+        padding: 10%;
+        width: 222%;
     }
     .action {
-        margin: 30px;
+        font-size: xx-large;
+        width: 400px;
     }
     .act-title {
-        margin: -35px 0 0px 110px;
+        top: -12%;
+        width: 23%;
+        font-size: 180%;
     }
-    .se-text {
-        font-size: x-small;
-    }
-    .do-title {
-        margin: -45px 0 0 20px;
-    }
+    /* ------------------------------------------------------third-------------------------------- */
     .third {
-        margin-left: -8px;
-        height: 1500px;
-        width: 218px;
+        width: 183%;
+        height: 3150px;
     }
     .third-text {
+        padding: 40px 0 0 0;
         text-align: center;
-        margin: 20px 0 30px -10px;
-        font-size: 24px;
-        width: 235px;
+        width: 104%;
     }
     .cards {
-        margin-left: 40px;
+        row-gap: 8%;
     }
     .card-on {
         flex-direction: row;
-        padding: 0;
-        width: 300px;
-        height: 350px;
+        padding: 21px 21px 21px 21px;
+        width: 100%;
+        height: 100%;
         text-align: center;
-        margin: 0px 0 105px -75px;
+    }
+    .do-title {
+        top: 1%;
+        left: 35%;
+        font-size: 135%;
     }
     .third-img {
-        margin: 0;
-        width: 248px;
-        height: 176px;
-        margin: -75px 0 15px 0px;
-        position: initial;
+        width: 85%;
+        height: 43%;
+        position: absolute;
     }
     .third-btn {
-        position: initial;
-        margin: 0px 0 0 -15px;
+        font-size: 120%;
+        top: 89%;
+        padding: 15px 40px 15px 40px;
+        text-align: 375px;
+        left: 35%;
     }
     .third-card-title {
-        margin: 0px 0 20px -15px;
-        font-size: medium;
+        padding: 10px 0 0 0;
+        font-size: 190%;
+        width: auto;
+        margin: 320px 0 0 0;
     }
     .third-card-text {
-        margin: 0px 0 20px 20px;
-        font-size: medium;
-        width: 215px;
+        font-size: 170%;
     }
+    /* -------------------------------------------------fourth------------------------------------------- */
     .fourth {
-        width: 259px;
-        margin-left: -8px;
-        flex-direction: column;
+        width: 194%;
+        height: 1775px;
+        background-size: cover;
+        grid-template-columns: 80%;
     }
     .fourth-text {
-        margin-left: -50px;
-        font-size: 50px;
-        margin-top: -10px;
+        font-size: 500%;
+        width: 450px;
+    }
+    .fourth-one {
+        height: 310px;
     }
     .fourth-btn {
-        margin: -15px 0 0 -40px;
+        font-size: 150%;
+    }
+    .fourth-title {
+        font-size: 170%;
+        top: 35.5%;
     }
     .content {
-        width: 310px;
-        padding: 25px 15px 15px 30px;
-        margin: 0 0 50px -50px;
+        width: 100%;
+        height: 95%;
     }
     .content-h {
-        font-size: xx-large;
-        margin-top: -15px;
+        font-size: 55px;
+    }
+    .container {
+        row-gap: 10%;
     }
     .content-p {
-        width: 190px;
-        font-size: large;
+        width: 480px;
+        font-size: xx-large;
     }
+    .fourth-img {
+        width: 80%;
+        height: 15%;
+    }
+    /* ----------------------------------------------fifth---------------------------------------- */
     .fifth {
         padding: 0;
-        margin: -30px 0 0 55px;
+        position: relative;
+        /* top: 7225px; */
+        height: fit-content;
+        /* background: aquamarine; */
+        /* width: 100%; */
+        /* height: 626px; */
     }
     .fifth-text {
-        position: relative;
-        width: 220px;
-        height: auto;
-        margin: 20px 0px 0 -20px;
+        /* position: relative; */
+        width: 200%;
+        height: 50%;
+        top: 700px;
+        left: 87px;
         padding: 40px;
         text-align: center;
     }
     .fifth-h {
-        font-size: medium;
+        font-size: 250%;
+        /* width: 540px; */
     }
     .fifth-p {
-        font-size: x-small;
+        font-size: 150%;
+        padding: 20px 0 0 0;
     }
     .fifth-btn {
-        font-size: smaller;
+        font-size: 200%;
         padding: 10px 20px 10px 20px;
-        margin: 15px 0 0 75px;
+        top: 175%;
+        left: 90%;
+        width: 90%;
     }
     .fifth-title {
-        margin-left: 70px;
-        font-size: large;
+        left: 125%;
+        font-size: 210%;
+        width: 40%;
+        top: 8%;
     }
     .fifth-img {
-        width: 300px;
-        height: 300px;
+        width: 225%;
+        /* height: 400%; */
+        padding: 70px 0 0 92px;
     }
+    /* -------------------------------------------sixth---------------------- */
     .sixth {
-        margin: 40px 0 0 -8px;
         padding: 35px 35px 35px 45px;
         text-align: center;
-        width: 338px;
+        width: 752px;
+        height: 2750px;
+        margin: 170% 0 0 0;
+        /* top: 8500px; */
     }
     .sixth-heading {
-        width: 300px;
-        margin-left: 0px;
+        text-align: center;
+        font-size: 72px;
+        width: 539px;
+        padding: 0 0 0 100px;
     }
     .sixth-one {
         flex-direction: column;
-        margin-left: 19px;
+        padding: 50px 0 150px 0;
     }
     .sixth-two {
         flex-direction: column;
-        margin-left: 20px;
     }
     .sixth-img {
-        width: 290px;
-        height: 290px;
+        width: 650px;
+        height: 500px;
+        padding: 0px 0 0 30px;
     }
     .sixth-content {
         padding: 0;
     }
     .sixth-title-one {
         position: absolute;
-        margin-top: -310px;
-        margin-left: 50px;
+        top: 290px;
+        font-size: xx-large;
+        left: 340px;
     }
     .sixth-title-two {
-        position: absolute;
-        margin-top: -310px;
-        margin-left: 50px;
+        top: 1590px;
+        font-size: 190%;
+        left: 300px;
     }
     .sixth-h {
-        margin-top: 25px;
+        padding: 10px 0 10px 0;
+        font-size: 50px;
+        width: auto;
     }
-    .sixth-btn {
-        margin: 0px 0 0 65px;
+    .sixth-p {
+        font-size: 45px;
+        width: 590px;
+        padding: 0 0 0 57px;
+    }
+    .sixth-btn-one {
+        font-size: xx-large;
+        top: 1440px;
+        left: 270px;
+    }
+    .sixth-btn-two {
+        left: 270px;
+        font-size: xx-large;
+        top: 2732px;
     }
     .sixth-blocks {
-        height: 1560px;
+        padding: 25px 0 0 30px;
     }
+    /* -------------------------------------------------seventh------------------------------ */
     .seventh {
         padding: 45px;
-        margin: 0 0 0 -8px;
-        width: 329px;
+        width: 743px;
+        display: block;
+        left: 0;
+        height: 200px;
     }
     .seventh-text {
-        width: 345px;
-        margin: 0 0 0 0;
-        font-size: 21px;
+        padding: 0 0 0 70px;
+        font-size: 40px;
+        width: 600px;
     }
     .seventh-input {
         padding: 10px 20px 10px 20px;
-        font-size: 12px;
-        margin: 100px 0 0 0;
+        font-size: 25px;
+        position: absolute;
+        top: 100px;
+        display: block;
     }
     .seventh-btn {
-        font-size: smaller;
-        width: 70px;
-        margin: 100px 0 0 25px;
-        padding: 10px 15px 10px 15px;
+        font-size: x-large;
+        width: 130px;
+        position: absolute;
+        top: 100px;
+        left: 400px;
     }
+    /* -----------------------------------------footer------------------------------------ */
     .footer {
+        display: flex;
         height: 380px;
-        width: 369px;
-        padding: 20px 20px 20px 30px;
-        margin: 0 0 0 -8px;
+        width: auto;
+    }
+    .fr-title {
+        position: absolute;
+        width: 550px;
+        padding: 50px 0 0 0;
+        font-size: 40px;
+        left: 90px;
     }
     .fr-container {
-        display: block;
         font-size: 12px;
-        width: -60px;
-    }
-    .fr-one {
-        margin: 0 0 0 100px;
-    }
-    .fr-two {
-        margin: 40px 0 0 100px;
-    }
-    .fr-three {
-        margin: -95px 0 0 -70px;
+        position: relative;
     }
     .fr-details {
-        width: 130px;
+        width: 250px;
+        font-size: x-large;
+        position: absolute;
+    }
+    .fr-one {
+        left: 300px;
+    }
+    .fr-two {
+        top: 200px;
+        left: 300px;
+    }
+    .fr-three {
+        width: 280px;
+        top: 220px;
     }
     .fr-text {
-        font-size: xx-large;
-        display: flex;
-        position: relative;
-        margin: 10px 0 0 80px;
+        font-size: 60px;
+        position: absolute;
+        top: 440px;
+        left: 470px;
+        padding: 0;
     }
 }

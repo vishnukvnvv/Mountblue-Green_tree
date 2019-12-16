@@ -1,188 +1,183 @@
 body {
-    font-family: Helvetica;
+    font-family: helvetica;
     color: #354463;
 }
 
-#header {
-    margin-bottom: 15px;
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
 }
 
 .title {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    color: black;
-    display: table-cell;
-    padding: 5px 0 0 120px;
+    font-size: 100%;
+    color: #354463;
 }
 
-#nav-bar {
-    display: inline;
-}
-
-.nav-link {
-    color: black;
+.nav-links {
+    padding: 0px 60px 0 60px;
     text-decoration: none;
-    margin-left: 120px;
-    font-family: monospace;
-    font-size: 15px;
+    color: #354463;
 }
 
-#donate {
+.header-btn {
+    color: #354463;
     background: #C1F7D5;
-    padding: 10px 15px 10px 15px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 2rem;
+    text-decoration: none;
 }
 
-@font-face {
-    font-family: "Flood";
-    src: url("../fonts/Flood.ttf");
-    font-style: normal;
-    font-weight: normal;
-}
+/* --------------------------------------------------first--------------------------------- */
 
-#first {
+.first {
     background-image: url(/images/assets/assets/home/annie-spratt-135307-unsplash.png);
     background-repeat: no-repeat;
-    background-position: top;
-    width: 941px;
-    height: 375px;
-    margin: 0 0 0 -8px;
-    display: flex;
-    padding: 150px;
+    background-position: right top;
+    background-size: cover;
+    left: 0;
+    width: 83.9%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 150px 100px 100px 100px;
+    position: relative;
 }
 
-#intro-card {
+.intro-card {
     background: white;
     color: black;
-    width: 425px;
-    height: 330px;
-    padding: 20px;
-}
-
-#intro-h1 {
-    font-size: 42px;
-    padding: 0 0 0 25px;
-    width: 440px;
-    height: 190px;
-    font-family: Helvetica;
-}
-
-#intro-p {
-    text-decoration: underline;
-    padding: 15px;
-    margin: 0 0 0 10px;
-    font-size: 16px;
-}
-
-.intro-text {
-    font-family: "Flood";
-    font-size: 72px;
-    width: 220px;
-    height: 230px;
-    color: white;
-    margin: -70px 0 0 70px;
+    width: 80%;
+    height: 60%;
+    padding: 10%;
 }
 
 .card-title {
     color: white;
     background: #354463;
     font-family: monospace;
-    width: 150px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -40px 0 0 40px;
+    position: absolute;
+    top: 23%;
+    padding: 1% 2%;
 }
+
+.intro-h {
+    font-size: 250%;
+    width: 100%;
+    color: #354663;
+    height: 190px;
+}
+
+.intro-p {
+    font-size: 95%;
+    text-decoration: underline;
+    color: #354663;
+}
+
+.intro-text {
+    padding: 0 0 0 120px;
+    width: 50%;
+    font-size: 400%;
+    font-family: flood;
+    color: white;
+}
+
+/* --------------------------------------------------second----------------------------------- */
 
 .second {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding: 30px;
     background: #C1F7D5;
-    margin: -3px -6px 0 -8px;
-    /* margin-right: -6px; */
-    height: auto;
-    width: 1181px;
+    width: 95.35%;
     font-family: Helvetica;
+    position: relative;
 }
 
 .act-title {
-    position: absolute;
-    margin: -50px 0 0 480px;
+    top: -22%;
+    left: 45%;
 }
 
-.action {
-    margin: 31px;
-}
+/* -----------------------------------------------third---------------------------------------- */
 
 .third {
+    position: relative;
     background: #354463;
-    height: auto;
-    width: 1041px;
+    width: 84%;
     padding: 100px;
     color: white;
-    margin: 00px -6px 0 -8px;
 }
 
 .do-title {
     background: white;
     color: #354463;
-    margin: 0;
+    top: 4%;
 }
 
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     padding: 75px 0 0 0;
 }
 
 .card-on {
-    width: 275px;
-    height: 525px;
-    margin-left: 50px;
+    width: 80%;
+    height: 105%;
     background: white;
     color: #354463;
     padding: 6px;
+    position: relative;
 }
 
 .third-text {
-    width: 805px;
+    width: 80%;
 }
 
 .third-img {
-    margin: -50px 0 0px 20px;
-    width: 275px;
-    height: 224px;
+    width: 100%;
+    height: 48%;
+    position: absolute;
+    left: 8%;
+    top: -5%;
 }
 
 .third-card-title {
     padding: 0 0 0 20px;
-    font-size: xx-large;
+    font-size: 150%;
+    margin: 200px 0 0 0;
 }
 
 .third-card-text {
     padding: 0 30px 0 25px;
-    font-size: large;
+    font-size: 100%;
 }
 
 .third-btn {
     color: black;
     background: #C1F7D5;
     padding: 10px 25px 10px 25px;
-    margin: 0 0 0 80px;
     border-radius: 40px;
     border: none;
+    position: absolute;
+    left: 20%;
 }
+
+/* ----------------------------------------------fourth------------------------------------------- */
 
 .fourth {
     background-image: url(/images/assets/assets/home/did-you-know-background.png);
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    /* justify-content: space-between; */
     padding: 80px;
-    width: 1081px;
-    margin: 0 0 0 -8px;
+    width: 87.3%;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    /* top: 1790px; */
+    background-size: cover;
+    /* left: 0; */
+    /* height: 121%; */
 }
 
 .fourth-one {
@@ -191,7 +186,7 @@ body {
 
 .fourth-text {
     font-size: 64px;
-    width: 310px;
+    width: 60%;
     color: white;
     font-family: flood;
 }
@@ -200,31 +195,31 @@ body {
     color: #354463;
     background: #C1F7D5;
     padding: 10px 15px 10px 15px;
-    border-radius: 25px;
+    border-radius: 2rem;
     border: none;
 }
 
 .fourth-two {
-    padding: 50px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 .fourth-title {
-    position: absolute;
-    margin-top: -20px;
+    left: 53%;
+    /* position: absolute; */
+    top: 11.5%;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    row-gap: 4%;
 }
 
 .content {
-    margin: 0px 0 80px 0;
-    padding: 30px 15px 15px 35px;
+    padding: 4%;
     display: flex;
     background: white;
-    height: 150px;
-    width: 475px;
+    height: 65%;
+    width: 75%;
 }
 
 .content-text {
@@ -232,37 +227,41 @@ body {
 }
 
 .content-h {
-    font-size: xx-large;
+    font-size: 220%;
 }
 
 .content-p {
-    width: 340px;
-    font-size: 20px;
+    /* width: 224%; */
+    width: 90%;
+    font-size: 110%;
 }
 
 .media {
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
-    margin: -15px 0 0 33px;
-    padding: 17px;
+    padding: 14px;
 }
 
 .fourth-img {
     background: #C1F7D5;
-    padding: 11px;
-    width: 10px;
-    height: 10px;
-    border-radius: 15px;
+    padding: .5rem;
+    width: 50%;
+    height: 10%;
+    border-radius: 2rem;
 }
+
+/* ----------------------------------------------fifth---------------------------------------- */
 
 .fifth {
     display: flex;
-    padding: 100px 100px 100px 110px;
+    padding: 100px;
+    position: relative;
+    width: 84.3%;
 }
 
 .fifth-one {
-    width: 330px;
+    width: 33%;
     padding: 0 0 0 20px;
 }
 
@@ -272,160 +271,178 @@ body {
     position: absolute;
     padding: 45px;
     widows: 350px;
-    height: 150px;
-    margin-bottom: 20px;
-    margin-top: 150px;
+    top: 37%;
 }
 
 .fifth-h {
     font-size: 20px;
-    margin-bottom: 40px;
     width: 285px;
 }
 
 .fifth-p {
     font-size: small;
-    margin-top: -10px;
+    margin: 20px 0 0 0;
 }
 
 .fifth-btn {
-    margin: 425px 0 0 20px;
+    position: absolute;
+    top: 70%;
 }
 
 .fifth-title {
     position: absolute;
-    margin-top: -20px;
-    margin-left: 50px;
+    top: 85px;
+    left: 500px;
 }
 
 .fifth-img {
-    width: 620px;
-    height: 580px;
+    width: 100%;
+    height: 100%;
 }
+
+/* ----------------------------------------------------sixth-------------------------------------- */
 
 .sixth {
     background: #354463;
-    margin: 0 0 0 -8px;
-    width: 1041px;
+    width: 83.5%;
+    height: 1240px;
     color: white;
     padding: 100px 100px 0 100px;
+    position: relative;
+    /* top: 3800px; */
+    /* left: 0; */
 }
 
 .sixth-heading {
     font-family: flood;
-    font-size: 50px;
-    width: 640px;
+    font-size: 350%;
+    width: 70%;
 }
 
 .sixth-blocks {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
 }
 
 .sixth-one {
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    padding: 50px 0 0 0;
 }
 
 .sixth-two {
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 100px;
+    padding: 50px 0 0 0;
 }
 
 .sixth-img {
-    width: 512px;
-    height: 512px;
+    width: 50%;
+    /* height: 100%; */
 }
 
 .sixth-content {
-    padding: 0 0 0 50px;
+    padding: 70px 0 0 50px;
 }
 
 .space {
-    padding: 0 200px 0 50px;
+    padding: 70px 200px 0 50px;
 }
 
 .sixth-title-one {
     background: white;
     color: #354463;
-    margin: 0 0 40px 0;
+    top: 19%;
 }
 
 .sixth-title-two {
     background: white;
     color: #354463;
-    margin: 0px 0 20px 0px;
+    top: 61%;
 }
 
 .sixth-h {
-    font-size: xx-large;
-    width: 300px;
-    margin-bottom: 40px;
+    /* FONT-WEIGHT: 100; */
+    font-size: 190%;
+    width: 70%;
 }
 
 .sixth-p {
-    font-size: larger;
+    font-size: 110%;
     width: 300px;
-    margin-bottom: 40px;
 }
 
-.sixth-btn {
-    margin: auto;
+.sixth-btn-one {
+    position: absolute;
+    top: 48%;
     width: fit-content;
 }
 
+.sixth-btn-two {
+    position: absolute;
+    top: 90%;
+    width: fit-content;
+}
+
+/* -------------------------------------------------seventh------------------------------ */
+
 .seventh {
+    position: relative;
     background: #C1F7D5;
     display: flex;
-    width: 1111px;
+    width: 89.5%;
     padding: 65px;
-    margin: 0 0 0 -8px;
+    /* position: absolute; */
+    /* top: 5140px; */
+    /* left: 0; */
+    justify-content: space-evenly;
 }
 
 .seventh-text {
-    font-size: x-large;
-    width: 500px;
-    margin: 0 0 0 80px;
+    font-size: 150%;
+    width: 470px;
 }
 
 .seventh-input {
     border: none;
     padding: 10px 25px 10px 20px;
     border-radius: 30px;
-    margin-left: 30px;
-    margin-top: 10px;
 }
 
 .seventh-btn {
     color: #c1f7d5;
     background: #354463;
     padding: 10px 15px 10px 15px;
-    margin: 10px 0 0 60px;
     height: 15px;
 }
 
+/* -----------------------------------------footer------------------------------------ */
 .footer {
-    padding: 40px 0 0 0;
+    padding: 40px 0 0 125px;
     display: flex;
+    position: relative;
+    /* top: 5320px; */
+    /* background: black; */
+    width: 90%;
+    /* left: 0; */
 }
 
 .fr-title {
     color: #354463;
-    font-size: 21px;
+    font-size: 110%;
+    width: 30%;
 }
 
 .fr-text {
+    padding: 0;
     color: #354463;
-    margin: 0 0 0 0;
-    font-size: 35px;
+    font-size: 220%;
+    text-align: right;
+    width: 30%;
 }
 
 .fr-container {
     display: flex;
-    margin: 0 65px 0 40px;
     padding: 0px 50px 0px 50px;
 }
 

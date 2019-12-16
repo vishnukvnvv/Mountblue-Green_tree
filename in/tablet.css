@@ -1,119 +1,142 @@
 @media (max-width: 1024px) {
+    .header {
+        display: block;
+        padding-left: 10%;
+    }
     .title {
-        display: block;
-        padding: 10px 0 10px 95px;
-        font-size: 28px;
+        font-size: 170%;
     }
-    .nav-link {
-        margin-left: 100px;
-        font-size: x-large;
+    .nav-links {
+        font-size: 125%;
+        padding: 0 20% 0 0;
     }
-    #donate {
-        padding: 12px 20px 12px 20px;
-        font-size: 20px;
-        width: 150px;
-        display: block;
-        margin: -75px 100px 0 720px;
+    .header-btn {
+        position: absolute;
+        font-size: 176%;
+        top: 3%;
+        width: 19%;
+        left: 90%;
+        padding: 15px 20px 15px 20px;
     }
-    #first {
-        margin: 36px 0 0 -8px;
+    /* ---------------------------------------------------first----------------------------------- */
+    .first {
+        display: flex;
         flex-direction: column-reverse;
-        height: 530px;
-        width: 723px;
+        width: 100%;
+        padding: 10%;
+    }
+    .card-title {
+        top: 36%;
+        font-size: 150%;
     }
     .intro-text {
-        font-size: 70px;
+        padding: 0 0 60px 0;
+        width: 25%;
     }
-    #intro-card {
-        margin: 100px 0 50px -20px;
-        width: 580px;
-        height: 309px;
-        padding: 25px 0px 20px 50px;
+    .intro-card {
+        padding: 8%;
     }
-    #intro-h1 {
-        font-size: 41px;
+    .intro-h {
+        font-size: 390%;
     }
-    #intro-p {
-        margin-top: -40px;
+    .intro-p {
+        font-size: 190%;
+        padding: 50px 0 0 0;
     }
+    /* ---------------------------------------------second---------------------------------------- */
     .second {
-        margin: -157px 0 0 -8px;
         grid-template-columns: 50% 50%;
-        width: 964px;
+        width: 114%;
         font-size: xx-large;
     }
     .act-title {
-        margin-left: 380px;
-        font-size: large;
-        padding: 5px;
+        font-size: x-large;
+        padding: 15px;
+        top: -10%;
+        left: 42%;
+    }
+    .action {
+        width: 80%;
+    }
+    /* -------------------------------------------------------third------------------------------- */
+    .third {
+        padding: 100px;
+        font-size: x-large;
+        width: 100%;
     }
     .do-title {
-        padding: 5px;
-        font-size: larger;
-    }
-    .third {
-        margin: 0px 0 0 -8px;
-        width: 823px;
+        padding: 20px;
+        font-size: 130%;
+        top: 2%;
     }
     .third-text {
-        font-size: 55px;
+        font-size: 190%;
+        padding: 3% 0 0 0;
     }
     .cards {
-        flex-direction: column;
+        grid-template-columns: 100%;
+        row-gap: 90px;
     }
     .card-on {
         flex-direction: column;
-        padding: 0px 0px 0 280px;
-        width: 500px;
-        height: 270px;
-        margin-bottom: 90px;
+        padding: 35px 0px 0 468px;
+        width: 55%;
+        height: 90%;
     }
     .third-img {
         position: absolute;
-        left: 170px;
-        width: 350px;
+        left: 45px;
+        width: 40%;
+        height: 75%;
     }
     .third-btn {
-        position: absolute;
-        left: 170px;
-        font-size: large;
-        margin: -55px 0 0 180px;
+        left: 25%;
+        top: 75%;
+        font-size: 125%;
     }
     .third-card-title {
-        width: 300px;
-        margin-left: 130px;
+        width: 70%;
+        font-size: 234%;
+        margin: 0;
     }
     .third-card-text {
-        width: 300px;
-        margin-left: 130px;
+        font-size: 130%;
     }
+    /* -----------------------------------------fourth------------------------------------------- */
     .fourth {
-        margin: 0 0 0 -8px;
-        width: 864px;
+        width: 104%;
+        grid-template-columns: 40% 60%;
     }
-    .fourth-text {
-        width: 300px;
+    .fourth-title {
+        top: 11%;
+        left: 45%;
+    }
+    .content-h {
+        font-size: 270%;
     }
     .fourth-btn {
         padding: 15px 25px 15px 25px;
         font-size: large;
     }
-    .content {
-        height: 130px;
-        width: 390px;
+    .container{
+        row-gap: 1%;
     }
     .content-p {
-        width: 280px;
+        font-size: 140%;
+        width: 80%;
     }
+    /* ----------------------------------------------fifth---------------------------------------- */
     .fifth {
-        padding: 100px 100px 100px 110px;
+        padding: 100px;
         flex-direction: column-reverse;
+        /* top: 4100px; */
     }
     .fifth-text {
-        margin: -40px 0 0 50px;
-        width: 625px;
-        height: 200px;
+        left: 30%;
+        width: 58%;
+        height: 23%;
         height: 10;
+        top: 80%;
     }
     .fifth-h {
         width: auto;
@@ -123,34 +146,55 @@
         font-size: x-large;
     }
     .fifth-btn {
+        left: 30%;
         padding: 18px 30px 18px 30px;
-        margin: 270px 0 0px 50px;
         font-size: x-large;
+        top: 115%;
         border-radius: 35px;
     }
     .fifth-title {
-        font-size: x-large;
+        font-size: 210%;
+        top: 8%;
+        left: 40%;
     }
     .fifth-img {
-        width: 720px;
-        height: 680px;
+        width: 100%;
+        height: 100%;
     }
+    /* -----------------------------------------------------sixth--------------------------------- */
     .sixth {
-        width: 823px;
+        width: 99.7%;
+        height: 1250px;
+        margin: 250px 0 0 0;
+    }
+    .sixth-one {
+        padding: 50px 0 50px 0;
+    }
+    .sixth-title-one {
+        top: 250px;
+    }
+    .sixth-title-two {
+        top: 745px;
+    }
+    .sixth-btn-two {
+        top: 87%;
+        font-size: 150;
     }
     .sixth-img {
-        height: 400px;
-        width: 400px;
+        /* height: 400px; */
+        width: 45%;
     }
     .space {
-        padding: 0 100px 0 50px;
+        padding: 64px 100px 0 50px;
     }
+    /* -------------------------------------------------seventh------------------------------ */
     .seventh {
-        width: 894px;
+        width: 106%;
+        /* top: 6399px; */
     }
     .seventh-text {
         position: absolute;
-        font-size: xx-large;
+        font-size: 200%;
         width: 675px;
     }
     .seventh-input {
@@ -163,17 +207,25 @@
         font-size: x-large;
         padding: 10px 25px 25px 25px;
     }
+    /* -----------------------------------------footer------------------------------------ */
     .footer {
         display: grid;
         grid-template-columns: 30% 70%;
+        /* top: 6700px; */
     }
     .fr-container {
         display: grid;
         grid-template-columns: 50% 50%;
+        column-gap: 50px;
+    }
+    .fr-title{
+        width: 150%;
     }
     .fr-text {
         position: absolute;
         font-size: 50px;
-        margin: 150px 0 0 650px;
+        top: 179px;
+        left: 750px;
     }
+
 }
